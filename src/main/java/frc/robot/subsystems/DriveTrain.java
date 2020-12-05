@@ -41,6 +41,6 @@ public class DriveTrain extends Subsystem {
   
   @Override
   public void periodic() {
-    tankDrive(OI.returnController().getRawAxis(4), OI.returnController().getRawAxis(1));
+    tankDrive(-OI.returnController().getRawAxis(1), -OI.returnController().getRawAxis(4));
   }
 }

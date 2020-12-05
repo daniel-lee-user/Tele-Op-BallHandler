@@ -17,7 +17,7 @@ import edu.wpi.first.wpilibj.PWMTalonSRX;
 public class ArmSubsystem extends Subsystem {
   // Put methods for controlling this subsystem
   // here. Call these from Commands.
-  private PWMTalonSRX armMotor = new PWMTalonSRX(2);
+  private PWMTalonSRX armMotor = new PWMTalonSRX(6);
   public static ArmSubsystem arm;
   public ArmSubsystem() {
   }
